@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cdsh63smfil1y"]
+
+[ext_resource type="Script" uid="uid://f6ge47fq027x" path="res://requirements/show_requirements.gd" id="1_i5iuw"]
+
+[node name="show_requirements" type="Control" unique_id=1779657150]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i5iuw")
+
+[node name="show_requirements_lbl" type="RichTextLabel" parent="." unique_id=5491374]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 522.0
+offset_bottom = 242.0
+bbcode_enabled = true
+text = "[color=green]dfsdfdsf"

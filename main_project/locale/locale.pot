@@ -1,0 +1,705 @@
+# LANGUAGE translation for M02. Get to Know 3D (Interactive Tours) for the following files:
+# res://addons/godot_tours/tour.gd
+# res://tours/103_introduction_to_3d/01_navigation_and_elements.gd
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: M02. Get to Know 3D (Interactive Tours)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: addons/godot_tours/tour.gd:524
+msgid "Press the [b]%s[/b] button."
+msgstr ""
+
+#: addons/godot_tours/tour.gd:566
+msgid "Turn the [b]%s[/b] button %s."
+msgstr ""
+
+#: addons/godot_tours/tour.gd:589
+msgid "Change to the [b]%s[/b] tab."
+msgstr ""
+
+#: addons/godot_tours/tour.gd:688
+msgid "Select the %s %s in the [b]Scene Dock[/b]."
+msgstr ""
+
+#: addons/godot_tours/tour.gd:718
+msgid "Set [b]%s[/b] to [code]%s[/code]"
+msgstr ""
+
+#: addons/godot_tours/tour.gd:744
+msgid "Set [b]%s[/b]'s [b]%s[/b] property to [b]%s[/b]"
+msgstr ""
+
+#: addons/godot_tours/tour.gd:795
+msgid "Open the scene [b]%s[/b]"
+msgstr ""
+
+#: addons/godot_tours/tour.gd:814
+msgid "Expand the property [b]%s[/b] in the [b]Inspector[/b]"
+msgstr ""
+
+#: addons/godot_tours/tour.gd:871
+msgid "Move [b]%s[/b] inside the guide box"
+msgstr ""
+
+#: addons/godot_tours/tour.gd:935
+msgid "Instantiate the [b]%s[/b] scene as a child of [b]%s[/b]"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:37
+msgid "Introduction to 3D in Godot"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:38
+msgid "LET'S GET RIGHT INTO IT!"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:40
+msgid "In this first tour, we will add the elements necessary for a 3D game and learn to navigate the 3D view."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:64
+msgid "The unfinished game scene"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:67
+msgid "I just opened the scene [b]unfinished_game.tscn[/b] for you."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:68
+msgid "This small game scene has a character, platforms, and a flag."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:69
+msgid "Run the scene by clicking the [b]Run Current Scene[/b] button at the top right of the editor or pressing [b]%s[/b] on your keyboard."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:70
+msgid "You'll see a completely gray screen... Don't panic! It's to be expected. I'll explain why in the next step."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:71
+msgid "Press [b]%s[/b] or close the game window to stop the game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:78
+msgid "The gray screen"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:81
+msgid "When running the game, the screen is completely gray because the scene currently lacks a camera."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:82
+msgid "In the 3D world, like in the real world, we need something like a pair of eyes or a virtual camera to tell the computer where to look and what to display."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:83
+msgid "In Godot, to add and control the game's 3D camera, we use the [b]Camera3D[/b] node."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:88
+msgid "Add the camera node"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:92
+msgid "Let's add a [b]Camera3D[/b] node to the scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:93
+msgid "To add the camera, select the [b]Game[/b] node in the Scene dock and click the [b]Add Child Node[/b] button at the top left. You can also press [b]%s+A[/b] on your keyboard to open the Add Node dialog. Search for the [b]Camera3D[/b] node and create it in the scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:96
+msgid "This creates and places the camera at the origin of the 3D game world."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:97
+msgid "Note that if you make a mistake at any point, you can press [b]%s+Z[/b] to undo the last action."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:102
+msgid "Add a [b]Camera3D[/b] as a child of the [b]Game[/b] node"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:116
+msgid "The Camera3D node"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:118
+msgid "After creating the node, notice the camera icon in the 3D view."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:119
+msgid "It comes with a small tapered wireframe box that extends from it. This wireframe represents the direction in which the camera is looking."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:128
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:347
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:518
+msgid "Run the scene"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:131
+msgid "Try running the scene now to see... something, at least! The camera is located at the world's origin, and it's facing a platform, so that's what you'll see."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:132
+msgid "The running game remains dark because there are no lights in the scene. We will add a light later."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:133
+msgid "Run the scene by clicking the [b]Run Current Scene[/b] button at the top right of the editor or pressing [b]%s[/b] on your keyboard. Press [b]%s[/b] or close the game window to stop the game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:144
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:291
+msgid "The camera preview"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:147
+msgid "At the top of the [b]Inspector[/b] dock on the right, you'll notice a camera preview. When you select the [b]Camera3D[/b] node, this preview shows exactly what the camera sees."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:148
+msgid "The lighting in this preview might look different from your running scene. That's because the preview uses the editor's default lighting setup."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:149
+msgid "We'll learn how to disable these default lights later in the tour. For now, let's focus on positioning the camera behind our character by moving the viewport and manipulating 3D nodes."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:157
+msgid "How to navigate the 3D view"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:160
+msgid "To move nodes in 3D, we often need to turn, pan, and zoom the view. Here's how you can do that in the 3D view:"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:162
+msgid "To rotate the 3D view, hold the [b]Middle Mouse Button[/b] down and move the mouse."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:163
+msgid "To pan the view and move around, hold the [b]Shift[/b] key and [b]Middle Mouse Button[/b] down, then move the mouse."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:164
+msgid "To zoom in and out, use the mouse wheel."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:166
+msgid "Try moving, turning, and zooming the view to test the controls."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:173
+msgid "Focus the camera node"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:176
+msgid "When you rotate the view, it rotates around a point. This point is the last point of [b]focus[/b] you set in the editor. By default, it's located at the center of the view."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:177
+msgid "You can quickly align the view to a node and make that node the focus point by selecting a node and pressing the [b]%s[/b] key on your keyboard."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:178
+msgid "Ensure that the [b]Camera3D[/b] node is selected in the [b]Scene[/b] dock and press [b]%s[/b] to focus the view on the camera."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:179
+msgid "This will re-center the view on the camera. The view will rotate around this point until you change it again."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:180
+msgid "Note that, for the shortcut to work, the mouse cursor should be over the 3D view."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:191
+msgid "Rotate the view around the camera"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:193
+msgid "Now that the camera node is in focus, try rotating the view. Hold the [b]Middle Mouse Button[/b] and drag to rotate the view around the camera."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:198
+msgid "Select the Move Mode"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:201
+msgid "To move a 3D object, as in 2D, you can use the %s [b]Move Mode[/b] in the toolbar at the top. Click the Move Mode icon in the toolbar above the viewport to display only the 3D position manipulator. You can also press [b]%s[/b] on your keyboard to activate it."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:207
+msgid "Switch to [b]Move Mode[/b]"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:213
+msgid "The 3D position manipulator"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:216
+msgid "The position manipulator has three axes you can click and drag to move the camera node along that axis. The red line corresponds to the X axis, the green line to the vertical Y axis, and the blue line to the Z axis."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:217
+msgid "You can also click and drag on the floating colored squares between axes to move the camera within the corresponding plane."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:224
+msgid "Move the camera"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:227
+msgid "Click and drag on the position manipulator axes and squares to move the camera node behind the character, in the floating blue box."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:228
+msgid "Use the navigation tricks you learned previously to move the view as needed:"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:230
+msgid "Change the editor's focus point with [b]%s[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:231
+msgid "Rotate the view with the [b]Middle Mouse Click[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:232
+msgid "Pan the view with [b]Shift + Middle Mouse Click[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:233
+msgid "Zoom in and out with the [b]Mouse Wheel[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:243
+msgid "The camera direction"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:246
+msgid "Notice the tapered pink box that expands from the camera icon in the viewport. This box wireframe represents the direction in which the camera is looking."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:247
+msgid "There's a little purple triangle above the purple wireframe in the viewport. It indicates the up direction of the camera. It should be pointing up or the view will be inverted."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:248
+msgid "At the moment, the camera is looking away from the player character."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:249
+msgid "To look at the player character, we need to rotate the box wireframe so that it extends towards the player."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:255
+msgid "Select the Rotate mode"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:258
+msgid "Select the %s [b]Rotate Mode[/b] in the toolbar above the viewport to display the rotation manipulator."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:259
+msgid "This manipulator has three circles representing the rotations you can perform: you can turn the selected node around the [b]x[/b], [b]y[/b], and [b]z[/b] axes."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:260
+msgid "For example, clicking and dragging on the green circle will rotate the camera around the vertical axis, the y-axis."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:265
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:452
+msgid "Turn the [b]Rotate Mode[/b] button ON."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:269
+msgid "Make the camera look at the player"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:272
+msgid "Using the Rotate mode, turn the camera to look towards the player. You can rotate it around the y axis by clicking and dragging the green circle on the rotation manipulator."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:273
+msgid "Your camera should be behind the player character and looking at it. You don't need to make the orientation perfect; you'll be able to adjust it later."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:274
+msgid "You can press [b]%s[/b] at any time to run the scene and see what the camera sees. Press [b]%s[/b] to stop the game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:275
+msgid "Don't worry about the fact everything is dark; we'll address that in a moment."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:282
+msgid "Rotate the camera around the y axis to look at the player"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:294
+msgid "While the [b]Inspector[/b] camera preview is helpful, it disappears as soon as you select any other node."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:295
+msgid "Thankfully, Godot offers a better solution: the viewport preview. This lets you see through the camera's eyes while you work on your level."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:296
+msgid "You can toggle the viewport preview by clicking the [b]Preview[/b] checkbox at the top left of the viewport."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:297
+msgid "Once enabled, you should see your player character from the camera's perspective. You can also toggle this preview by pressing [b]%s+P[/b] on your keyboard."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:301
+msgid "Turn on the camera preview"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:311
+msgid "Split the view in two"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:314
+msgid "With a single view, we have to switch in and out of preview to edit the scene. That's not convenient, is it?"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:315
+msgid "We can split the view into two to see both simultaneously!"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:316
+msgid "To split the view, click the [b]View[/b] button in the toolbar and select one of the options."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:321
+msgid "Split the view into two vertical viewports"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:331
+msgid "Working with two views"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:334
+msgid "Notice how the view is now split into two viewports. The left viewport shows the camera preview, and the right viewport shows the free view."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:335
+msgid "In the free view, you can move the camera around and see the scene from different angles."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:336
+msgid "Try moving and turning the camera with the %s Move Mode (%s) and the %s Rotate Mode (%s) to see the camera preview update in real-time."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:350
+msgid "Press [b]%s[/b] to play the scene again. You should see the player character and the platforms, with a pretty dark scene and a gray sky. Press [b]%s[/b] to close the running game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:360
+msgid "In 3D, you need light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:363
+msgid "A 3D game is composed of 3D geometry shaded by [b]materials[/b] and [b]light[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:364
+msgid "Our scene has 3D geometry and materials predefined, but currently, it does not have light."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:365
+msgid "It looks fine in the viewport because Godot provides default lighting to help us prototype scenes until we add our own lights."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:371
+msgid "Turn off the default lights"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:374
+msgid "To see the scene in the viewport as it looks in the game, we need to turn off the default lights."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:375
+msgid "In the toolbar, click the %s [b]Toggle preview sunlight[/b] and %s [b]Toggle preview environment[/b] buttons to turn off the default lights."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:379
+msgid "The viewport should become dark and gray, as in the game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:387
+msgid "Turn off the sun and environment preview"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:395
+msgid "The most common light types"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:398
+msgid "Godot has three nodes representing different types of lights:"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:400
+msgid "The [b]OmniLight3D[/b] simulates light bulbs. It lights a spherical area."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:401
+msgid "The [b]SpotLight3D[/b] simulates a flashlight or spotlight. It illuminates a cone-shaped area."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:402
+msgid "The [b]DirectionalLight3D[/b] node simulates the sun. It applies uniform directional lighting to the entire scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:404
+msgid "As our scene is an exterior, we will add a [b]DirectionalLight3D[/b] node to simulate sunlight."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:410
+msgid "Add a directional light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:413
+msgid "Select the [b]Game[/b] node in the Scene dock and add a [b]DirectionalLight3D[/b] node as a child of it."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:414
+msgid "You can press [b]%s+A[/b] on your keyboard to open the Add Node dialog. Search for the [b]DirectionalLight3D[/b] node and create it in the scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:418
+msgid "Add a [b]DirectionalLight3D[/b] node to the scene"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:429
+msgid "The directional light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:432
+msgid "At first, the light is aligned with the ground plane so it does not illuminate the floor. It illuminates the character from the front."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:433
+msgid "We'll rotate the light to angle it down and light up the character and the ground."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:434
+msgid "First, hover the right viewport with the mouse and focus the directional light by pressing the [b]%s[/b] key. This will center the view on the light."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:443
+msgid "Activate the Rotate mode"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:446
+msgid "We can use the [b]Rotate Mode[/b] in the toolbar to rotate the light. Click the icon or press [b]%s[/b] on your keyboard to activate the [b]Rotate Mode[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:457
+msgid "The rotation manipulator"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:460
+msgid "We used the rotation manipulator before with the camera. It has three circles representing the rotations you can perform: you can turn the selected node around the [b]x[/b], [b]y[/b], and [b]z[/b] axes."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:461
+msgid "Left click and drag on any of these three circles to rotate the light around the corresponding axis."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:462
+msgid "Left clicking and dragging anywhere else in the viewport will rotate the light parallel to the view's forward axis."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:468
+msgid "Rotate the directional light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:471
+msgid "The light direction is represented by the white wire arrow that's aligned with the ground plane by default."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:472
+msgid "Rotate the light by clicking and dragging on the red circle to rotate it around the [b]x[/b]-axis and angle it down."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:473
+msgid "If you still have the two viewports active, you should see the character and the ground get lit uniformly from above."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:477
+msgid "Rotate the light to angle it down"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:488
+msgid "To shade or not to shade"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:491
+msgid "Notice how the player character does not cast a shadow in the camera preview on the left."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:492
+msgid "By default, lights in 3D games do not cast shadows because shadows have a rendering cost. Having too many shadow-casting lights can slow down the game, but having none doesn't give the visuals enough depth."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:493
+msgid "Let's see how to activate shadows on our [b]DirectionalLight3D[/b] to make it cast shadows in the game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:499
+msgid "Enable shadows on the directional light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:502
+msgid "Make sure you have the [b]DirectionalLight3D[/b] node selected. Then, in the [b]Inspector[/b], turn on the [b]Enable[/b] property highlighted in the [b]Shadow[/b] category. Shadows will appear behind the character and the flag."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:503
+msgid "There are a bunch of settings to tweak the quality and range of the shadows, but we'll learn all about that later in the course."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:507
+msgid "Enable shadows on the [b]DirectionalLight3D[/b] node"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:521
+msgid "Run the scene again with [b]%s[/b] to see that the character is lit and casts a shadow on the ground. The game should look slightly better now."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:522
+msgid "Press [b]%s[/b] to close the running game."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:523
+msgid "The scene still lacks a sky. We'll add one next."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:530
+msgid "The world environment"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:533
+msgid "While we added a directional light, we still have lots of shaded areas in our level, and the background is all gray."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:534
+msgid "To control the background, we can use a [b]WorldEnvironment[/b] node. This node takes an [b]Environment[/b] resource and lets us define what the sky should look like. It also controls post-processing effects built into Godot, like fog, contrast, and more."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:535
+msgid "We won't create an environment from scratch now; we'll learn how to do that later in the course. For now, we'll use one I've prepared for you."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:542
+msgid "Add a WorldEnvironment node"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:545
+msgid "Let's add a [b]WorldEnvironment[/b] node to the scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:546
+msgid "Select the [b]Game[/b] node in the Scene dock and add a new [b]WorldEnvironment[/b] node as a child of it. This node alone does nothing; it needs an [b]Environment[/b] resource to work."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:547
+msgid "We'll add it in the next step."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:551
+msgid "Add a [b]WorldEnvironment[/b] node to the scene"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:563
+msgid "Add the environment resource"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:566
+msgid "With the [b]WorldEnvironment[/b] node selected, click and drag the [b]world_environment.tres[/b] file from the [b]FileSystem[/b] dock onto the [b]Environment[/b] property in the [b]Inspector[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:567
+msgid "It's an environment I've prepared for you. It has a soft purple sky and uses the fog effect to give the platforms depth."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:577
+msgid "Set the [b]Environment[/b] property to [b]%s[/b]"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:585
+msgid "The ambient lighting"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:588
+msgid "The sky brightens the scene and gives it a more appealing look. It uses a simple, uniform light that comes from all directions, called [b]ambient lighting[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:589
+msgid "It's a very efficient and performance-friendly way to light a scene. It also works great for stylized visuals, like the style we're going for in this course."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:597
+msgid "Expand the ambient light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:600
+msgid "Let's see how it works in the [b]Inspector[/b] dock. With the [b]WorldEnvironment[/b] node selected, in the Inspector, click on the [b]world_environment.tres[/b] resource to expand its properties. Then, expand the [b]Ambient Light[/b] category."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:601
+msgid "It reveals four properties: [b]Source[/b], [b]Color[/b], [b]Sky Contribution[/b], and [b]Energy[/b]."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:602
+msgid "The source of the ambient light is the purple sky, and it contributes to the scene's lighting. The sky colors are mixed with the [b]Color[/b] property based on the [b]Sky Contribution[/b] value. The [b]Energy[/b] property controls the intensity of the ambient light."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:609
+msgid "Tweak the ambient light"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:612
+msgid "Take a moment to play with these properties and see how they affect the scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:613
+msgid "The [b]Color[/b] property is particularly fun to tweak! It tints all the platforms and the character with the color you choose."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:614
+msgid "Note that the Color property won't do anything if [b]Sky Contribution[/b] is set to [b]1.0[/b]. You need to lower the sky's contribution to see the effect."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:624
+msgid "Excellent!"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:625
+msgid "CONTINUE"
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:628
+msgid "That's it for this first tour! You've learned to navigate the 3D view, move and rotate nodes, and add light to a 3D scene."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:631
+msgid "You've also seen how 3D games require a camera and light to work and look good. It's just like capturing a video in real life: you need a camera and lights."
+msgstr ""
+
+#: tours/103_introduction_to_3d/01_navigation_and_elements.gd:634
+msgid "In the next few tours, we'll explore 3D geometry, materials, and the similarities and differences between 2D and 3D games."
+msgstr ""

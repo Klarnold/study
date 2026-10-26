@@ -1,0 +1,135 @@
+[gd_scene format=3 uid="uid://sfwy3xjpb0mk"]
+
+[ext_resource type="Script" uid="uid://b1iu4racg0k63" path="res://DELETE/main_window/exp_main_window.gd" id="1_rvb2x"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_p3ta0"]
+viewport_path = NodePath("Node3D/SubViewport")
+
+[sub_resource type="BoxMesh" id="BoxMesh_p3ta0"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_fw1fr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_rvb2x"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_02cgn"]
+
+[node name="exp_main_window" type="Control" unique_id=1887030349]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1806124765]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("ViewportTexture_p3ta0")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Camera3D" type="Camera3D" parent="TextureRect" unique_id=223716160]
+
+[node name="Node3D" type="Node3D" parent="." unique_id=149889957]
+
+[node name="SubViewport" type="SubViewport" parent="Node3D" unique_id=743443010]
+
+[node name="Camera3D" type="Camera3D" parent="Node3D/SubViewport" unique_id=1668779067]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 3)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Node3D" unique_id=1656501636]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0626175, 0.96597075, 0)
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Node3D" unique_id=1194606233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2915504, 0.96597075, -1.382051)
+mesh = SubResource("BoxMesh_p3ta0")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Node3D" unique_id=491927502]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17890906, 1.9429896, -4.431993)
+mesh = SubResource("BoxMesh_p3ta0")
+
+[node name="Panel" type="Panel" parent="." unique_id=1036808082 node_paths=PackedStringArray("node_meshes")]
+custom_minimum_size = Vector2(600, 600)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rvb2x")
+forms = Dictionary[String, Mesh]({
+"capsule": SubResource("CapsuleMesh_fw1fr"),
+"cube": SubResource("BoxMesh_rvb2x"),
+"sphere": SubResource("SphereMesh_02cgn")
+})
+node_meshes = [NodePath("../Node3D/MeshInstance3D"), NodePath("../Node3D/MeshInstance3D2"), NodePath("../Node3D/MeshInstance3D3")]
+
+[node name="all_view" type="Control" parent="Panel" unique_id=69098880]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/all_view" unique_id=300488518]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/all_view/VBoxContainer" unique_id=588691483]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 60
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 60
+theme_override_constants/margin_bottom = 40
+
+[node name="GridContainer" type="GridContainer" parent="Panel/all_view/VBoxContainer/MarginContainer" unique_id=2024510783]
+unique_name_in_owner = true
+layout_mode = 2
+columns = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="Panel/all_view/VBoxContainer" unique_id=1650035273]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 10
+
+[node name="Button" type="Button" parent="Panel/all_view/VBoxContainer/MarginContainer2" unique_id=1324342207]
+layout_mode = 2
+text = "START"
+
+[node name="result_view" type="Control" parent="Panel" unique_id=2040280004]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="results_label" type="RichTextLabel" parent="Panel/result_view" unique_id=1999705932]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+fit_content = true
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1619077757]
