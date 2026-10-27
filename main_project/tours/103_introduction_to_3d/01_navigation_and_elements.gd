@@ -1,5 +1,5 @@
 @tool
-extends "res://addons/godot_tours/tour.gd"
+extends GDTour
 
 const Gobot := preload("res://addons/godot_tours/bubble/gobot/gobot.gd")
 

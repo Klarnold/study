@@ -20,6 +20,7 @@
 ## See the provided demo tour for an example.
 @tool
 extends Node
+class_name GDTour
 
 ## Emitted when the tour moves to the next or previous step. See [member steps].
 signal step_changed(step_index: int)
@@ -72,7 +73,7 @@ const DEFAULT_FINALE_LAST_BUTTON_TEXT := "BACK TO MENU"
 
 # External utilities.
 
-const EditorInterfaceAccess := preload("res://addons/gdquest_editor_interface/editor_interface_access.gd")
+const EditorInterfaceAccess := preload("res://addons/godot_tours/gdquest_editor_interface/editor_interface_access.gd")
 const EditorNodePoints := EditorInterfaceAccess.Enums.NodePoint
 
 # Internal utilities.

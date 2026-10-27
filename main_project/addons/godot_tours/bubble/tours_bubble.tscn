@@ -84,7 +84,7 @@ layout_mode = 2
 theme_type_variation = &"WelcomeTitle"
 bbcode_enabled = true
 text = "[center]Series Title[/center]
-[center][color=ffd500][font_size=32]Series More Specific Title[/font_size][/color][/center]"
+[center][color=000000][font_size=16]Series More Specific Title[/font_size][/color][/center]"
 fit_content = true
 scroll_active = false
 shortcut_keys_enabled = false

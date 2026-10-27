@@ -15,3 +15,11 @@ func _define() -> void:
 		36,
 		"res://tours/103_introduction_to_3d/01_navigation_and_elements.gd",
 	)
+	
+	register_tour(
+		"exp_tour",
+		"exp_tour",
+		tr("cogem amanai"),
+		3,
+		"res://tours/exp_tour/exp_tour.gd"
+	)

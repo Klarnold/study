@@ -2,7 +2,7 @@
 @tool
 
 const FALLBACK_FONT_LANGUAGES := ["ja"]
-const FALLBACK_FONT_FMT := "res://addons/gdquest_theme_utils/fallback/noto_sans%s_%s.ttf"
+const FALLBACK_FONT_FMT := "res://addons/godot_tours/gdquest_theme_utils/fallback/noto_sans%s_%s.ttf"
 const FALLBACK_FONT_MAP := {
 	"bold_font": "bold",
 	"italics_font": "italic",
