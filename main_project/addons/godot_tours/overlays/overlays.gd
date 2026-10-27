@@ -6,7 +6,7 @@ extends Node
 
 signal cleaned_up
 
-const EditorInterfaceAccess := preload("res://addons/godot_tours/gdquest_editor_interface/editor_interface_access.gd")
+const EditorInterfaceAccess := preload("res://addons/godot_tours/editor_interface/editor_interface_access.gd")
 const EditorNodePoints := EditorInterfaceAccess.Enums.NodePoint
 
 const Dimmer := preload("dimmer/dimmer.gd")

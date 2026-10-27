@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bchv6ye2hclqk"
-path="res://.godot/imported/noto_sans_ja_bold.ttf-d171e800eabe6d808242afe1dfef5c2b.fontdata"
+path="res://.godot/imported/noto_sans_ja_bold.ttf-1ff435fb6610ade5e392dd911a2cef37.fontdata"
 
 [deps]
 
-source_file="res://addons/godot_tours/gdquest_theme_utils/fallback/noto_sans_ja_bold.ttf"
-dest_files=["res://.godot/imported/noto_sans_ja_bold.ttf-d171e800eabe6d808242afe1dfef5c2b.fontdata"]
+source_file="res://addons/godot_tours/theme_utils/fallback/noto_sans_ja_bold.ttf"
+dest_files=["res://.godot/imported/noto_sans_ja_bold.ttf-1ff435fb6610ade5e392dd911a2cef37.fontdata"]
 
 [params]
 

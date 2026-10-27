@@ -15,7 +15,7 @@ signal finish_requested
 ## Emitted when the user asks to locate the log file for the tour.
 signal log_requested
 
-const EditorInterfaceAccess := preload("res://addons/godot_tours/gdquest_editor_interface/editor_interface_access.gd")
+const EditorInterfaceAccess := preload("res://addons/godot_tours/editor_interface/editor_interface_access.gd")
 const EditorNodePoints := EditorInterfaceAccess.Enums.NodePoint
 
 const Utils := preload("../utils.gd")

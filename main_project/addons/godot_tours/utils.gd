@@ -10,7 +10,7 @@ const TranslationDomains := {
 
 static var _tour_translation_domains: Array[String] = []
 
-const ThemeUtils := preload("res://addons/godot_tours/gdquest_theme_utils/theme_utils.gd")
+const ThemeUtils := preload("res://addons/godot_tours/theme_utils/theme_utils.gd")
 const DEFAULT_THEME := preload("assets/gdtour_theme.tres")
 
 static var _scaled_theme: Theme = null
